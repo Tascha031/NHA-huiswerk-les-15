@@ -1,0 +1,101 @@
+/* algemeen */
+
+body {
+    background-color: aliceblue;
+    text-align: center;
+    font-size: large;
+    padding: 5px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+li {
+    display: inline-block;
+    background-color: lightgreen;
+    border: solid darkblue;
+    padding: 10px;
+}
+
+li:hover {
+    background-color: chartreuse;
+}
+
+/* index */
+
+article {
+    display: inline-block;
+    background-color: lightgrey;
+    padding: 5px;
+}
+
+p, h1 {
+    display: inline;
+    background-color: paleturquoise;
+}
+
+figure {
+    float: right;
+    background-color: paleturquoise;
+}
+
+#miko {
+    width: 170px;
+}
+
+footer {
+    display: inline-block;
+    background-color: lightgray;
+    padding: 5px;
+}
+
+/* mijn cv */
+
+table {
+    border-collapse: collapse;
+    border: solid darkblue;
+    text-align: center;
+    margin: auto;
+}
+
+td, th {
+    border: solid darkblue;
+    padding: 5px;
+    width: 250px;
+}
+
+th {
+    background-color: paleturquoise;
+}
+
+td {
+    background-color: lightgrey;
+}
+
+/* contact */
+
+form {
+    background-color: lightgrey;
+    display: block;
+    padding: 5px;
+}
+
+legend, label {
+    background-color: paleturquoise;
+    width: 200px;
+    padding: 5px;
+}
+
+textarea {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 5px;
+}
+
+#verzendknop {
+    background-color: lightgreen;
+    padding: 5px;
+}
+
+#verzendknop:hover {
+    background-color: chartreuse;
+}

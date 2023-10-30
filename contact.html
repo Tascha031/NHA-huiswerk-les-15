@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="mijn contactgegevens">
+        <title>Mijn contactgegevens</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="mijncv.html">Mijn CV</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <form id="contactform" method="post" action="https://formspree.io/f/xdorybqk">
+            <fieldset>
+                <legend>
+                    <strong>Contactformulier</strong>
+                </legend> <br>
+
+                <label for="voornaam">Voornaam</label>
+                <input type="text" id="voornaam" name="voornaam" placeholder="Voornaam">
+
+                <label for="achternaam">Achternaam</label>
+                <input type="text" id="achternaam" name="achternaam" placeholder="Achternaam">
+
+                <label for="mailadres">E-mailadres</label>
+                <input type="email" id="mailadres" name="mailadres" placeholder="E-mailadres">
+
+                <label for="bericht">Bericht</label>
+                <textarea name="bericht" id="bericht" maxlength="1500" placeholder="Plaats uw bericht hier"></textarea>
+            </fieldset> <br>
+            <div>  
+                <label for="verzendknop">Klik hier om het formulier te verzenden</label>
+                <button type="submit" id="verzendknop" value="submit">Verzend</button>
+            </div>      
+        </form>
+    </body>
+</html>
