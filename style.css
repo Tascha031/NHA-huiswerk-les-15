@@ -5,8 +5,12 @@ body {
     text-align: center;
     font-size: large;
     padding: 5px;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+header {
+    padding: 5px;
 }
 
 li {
